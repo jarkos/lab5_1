@@ -21,7 +21,7 @@ public class BetterRadarTest {
 	
 	@Test
 	@Repeat( times = 10)
-	public void launchPatriotOnceWhenNoticesAScudMissle() {
+	public void launchPatriot10TimesWhenNoticesAScudMissle() {
 		Executor executor = new Launcher();
 		PatriotBattery batteryMock = mock(PatriotBattery.class);
 		BetterRadar betterRadar = new BetterRadar(batteryMock);
